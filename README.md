@@ -2,6 +2,8 @@
 自定义验证码输入框
 
 #使用：
+implement 'com.qiu:CaptchaInputView:1.0.0'
+
 <com.qiu.captcha.CaptchaInputView
         android:id="@+id/captchaView"
         android:layout_marginStart="38dp"
