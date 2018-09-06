@@ -1,1 +1,2 @@
 include ':app', ':captcha'
+//enableFeaturePreview('STABLE_PUBLISHING')
