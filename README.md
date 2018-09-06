@@ -1,15 +1,4 @@
 # CaptchaInputView
 自定义验证码输入框
 
-#使用：
-implement 'com.qiu:CaptchaInputView:1.0.0'
-
-<com.qiu.captcha.CaptchaInputView
-        android:id="@+id/captchaView"
-        android:layout_marginStart="38dp"
-        android:layout_marginEnd="38dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<a>https://github.com/qrc0403/CaptchaInputView/wiki</a>
