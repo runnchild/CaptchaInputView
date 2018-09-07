@@ -25,7 +25,7 @@ xml中
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+```
 
-    
-![](https://github.com/qrc0403/CaptchaInputView/blob/master/app/E70B2F2F-C746-401e-97E4-0B03590C5640.png)  
+![eg](https://github.com/qrc0403/CaptchaInputView/blob/master/app/E70B2F2F-C746-401e-97E4-0B03590C5640.png)
 
