@@ -59,6 +59,7 @@ public class CaptchaInputView extends AppCompatEditText {
         setInputType(InputType.TYPE_CLASS_NUMBER);
         setBackgroundColor(0);
         setOnLongClickListener(v -> true);
+        mTextPaint.setColor(getCurrentTextColor());
         setTextColor(Color.TRANSPARENT);
         setCursorVisible(false);
 
@@ -67,8 +68,7 @@ public class CaptchaInputView extends AppCompatEditText {
                 focusPosition();
             }
         });
-        mTextPaint.setTextSize(isInEditMode() ? 60 : dp2px(30));
-        mTextPaint.setColor(ContextCompat.getColor(getContext(), R.color.colorTextPrimary));
+        mTextPaint.setTextSize(getTextSize());
         addTextChangedListener(new DefaultTextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
