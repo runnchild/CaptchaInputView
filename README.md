@@ -5,7 +5,7 @@
 本控件也只是提供一个简单的实现，没有更多样式，重要的是实现思路，因为简单所以更好二次加工。相比直接使用他人代码，我更喜欢的是改造，拿来就用永远还是别人的，其次理解代码之后改需求也更快<br>
 
 #用法<br>
-implement 'com.qiurc:CaptchaInputView:1.0.0'<br>
+implement 'com.qiurc:CaptchaInputView:1.0.1'<br>
 
 ```Java
         
